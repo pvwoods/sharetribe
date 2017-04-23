@@ -32,6 +32,8 @@
           :javascript
             $(function() {
               updateSellerGetsValue(
+                "#{I18n.locale}",
+                "#{@current_community.currency}",
                 "#listing_price",
                 "#fee_display",
                 "#listing_currency",
